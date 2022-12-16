@@ -1,0 +1,90 @@
+@use '@/assets/variables.scss' as variables;
+@import 'bulma/css/bulma.css';
+@import url('https://use.typekit.net/xlk3hnm.css');
+
+body,
+html,
+#app {
+  background-color: variables.$background;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  h3 {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    color: variables.$main-blue;
+  }
+
+  h4 {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left;
+    color: variables.$main-blue;
+  }
+
+  h5 {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: variables.$main-blue;
+  }
+
+  button {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    background-color: variables.$main-blue;
+    color: variables.$white;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: variables.$main-blue-hover;
+      color: variables.$white;
+    }
+  }
+
+  a {
+    color: variables.$text-and-modal-background;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+
+    &.underline {
+      text-decoration: underline;
+    }
+
+    &:hover {
+      color: variables.$main-blue;
+      text-decoration: underline;
+    }
+  }
+
+  .lh-0 {
+    line-height: 0;
+  }
+
+  .vh-100 {
+    height: 100vh;
+  }
+
+  .dashboard.has-navbar-fixed-top {
+    padding-top: 110px;
+    padding-left: variables.$sidebar-width;
+  }
+}

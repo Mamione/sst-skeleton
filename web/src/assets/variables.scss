@@ -1,0 +1,53 @@
+@import 'bulma/sass/utilities/mixins.sass';
+
+// Colors
+$main-blue: #274b63 !default;
+$main-blue-hover: #1d384a !default;
+$highlight-color: #d88b33 !default;
+$black: #000000 !default;
+$dark-grey: #7c7c7c !default;
+$light-grey: #ccc !default;
+$text-and-modal-background: #4a4a4a !default;
+$grey: #dbdbdb !default;
+$background: #f2f2f2 !default;
+$white: #ffffff !default;
+$danger: #dc3545 !default;
+$danger-hover: #c82333 !default;
+$danger-disabled: #e97b86 !default;
+$success: #28a745 !default;
+$success-hover: #218838 !default;
+$success-disabled: #74c686 !default;
+$warning: #ffc107 !default;
+$warning-hover: #e0a800 !default;
+$warning-disabled: #ffd75e !default;
+$info: #217ec3 !default;
+$info-hover: #216ba3 !default;
+$info-disabled: #4c9fd9 !default;
+
+$sidebar-width: 80px;
+$sidebar-expanded-width: 255px;
+
+// Mobile Up to 768px
+// Tablet Between 769px and 1023px
+// Desktop Between 1024px and 1215px
+// Widescreen Between 1216px and 1407px
+// FullHD 1408px and above
+@mixin is-mobile {
+  @media screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin is-desktop {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+  // @media screen and (min-width: 1024px) and (max-width: $until - 1px) { @content; }
+}
+
+@mixin transition($transition...) {
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}

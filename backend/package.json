@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .js,.ts,.tsx src"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1266.0",
+    "moment": "^2.29.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/aws-lambda": "^8.10.109",
+    "@types/validator": "^13.7.10"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/*.meta": true,
+    "**/*.csproj": true,
+    "**/node_modules": true
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+}

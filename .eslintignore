@@ -1,0 +1,6 @@
+/build
+/dist
+/migrations
+/node_modules
+jest.config.js
+knexfile.js

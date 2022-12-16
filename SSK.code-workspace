@@ -1,0 +1,47 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/__pycache__": true,
+      "**/*.meta": true,
+      "**/*.csproj": true,
+      "**/node_modules": true
+    },
+    "eslint.workingDirectories": [{ "mode": "auto" }],
+    "editor.scrollBeyondLastLine": false,
+    "editor.insertSpaces": true,
+    "files.insertFinalNewline": true,
+    "editor.detectIndentation": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderWhitespace": "none",
+    "editor.guides.indentation": true,
+    "files.trimTrailingWhitespace": true,
+    "prettier.arrowParens": "always",
+    "prettier.bracketSpacing": true,
+    "prettier.enable": true,
+    "prettier.htmlWhitespaceSensitivity": "css",
+    "prettier.proseWrap": "preserve",
+    "prettier.quoteProps": "as-needed",
+    "prettier.semi": true,
+    "prettier.singleAttributePerLine": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.useEditorConfig": true,
+    "prettier.useTabs": false,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.bracketSameLine": false,
+    "prettier.printWidth": 200,
+    "editor.formatOnSave": true
+  }
+}
